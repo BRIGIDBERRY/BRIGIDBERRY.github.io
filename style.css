@@ -1,0 +1,82 @@
+body{
+    background:linear-gradient(#290226, #a504aa, rgb(216, 5, 198), rgb(245, 11, 218), rgb(58, 1, 48) );
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+header{ 
+    text-align: center;
+    font-family: monospace;
+    color:rgb(250, 123, 197); 
+    text-shadow: 4px 10px 5px rgb(61, 8, 42); /*para sombrear texto*/
+    margin: 40px;  /*/para marge superior*/
+    font-size: 2em; /*/para establecer el tamaño */
+    letter-spacing: 8px;
+    word-spacing: 10px;
+
+}
+
+textarea[name="user-input"] {
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 1.3em; /*/tamaño de texto */
+    color: rgb(24, 5, 16);  /*/para color letra */
+    background-color: rgba(128, 8, 102, 0.11); /*/fondo textarea */
+    border: 3px solid rgba(92, 4, 62, 0.973); /*/borde */
+    border-radius: 20px 10px;
+    padding: 10px; /*/ texto lejos del borde */
+    /*display: inline-flex;*/
+    margin-left: 200px;
+    justify-content: end;
+    
+}
+
+ul{
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+.metricas-caracteres{
+
+    font-family: fantasy;
+    min-width: auto; 
+    color: rgb(20, 2, 18);
+    font-size: 15px;
+    box-sizing: border-box;
+    margin: 5px 25px ;
+    border: 2px solid rgba(107, 4, 67, 0.973);
+    background-color: rgba(121, 5, 69, 0.185);
+    display: flex ;
+    border-radius: 10px;
+    padding: 10px;
+    width:150px;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+#reset-button{
+    color: rgb(214, 47, 214);
+    font-family: fantasy;
+    font-size: large;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    background-color:rgb(66, 4, 61);
+    margin: 20px 450px 20px 450px;
+    padding: 15px;
+    border-radius: 30%;
+    border-color:rgba(102, 2, 64, 0.973);
+    
+    
+}
+
+footer{
+    background-color: rgba(92, 8, 88, 0.151);
+    text-align: center;
+    color: rgb(134, 61, 128);
+    width: 100%;
+    position: absolute; /*fixed;*/
+
+}

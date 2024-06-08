@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title> Analizador de texto</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1> Analizador de Texto </h1>
+  </header>
+ 
+  <textarea name="user-input"  cols="80" rows="10" placeholder="INGRESA TEXTO 📝✏️" ></textarea>
+
+  <ul >  
+    <li class="metricas-caracteres" data-testid="word-count"> RECUENTO DE PALABRAS ✏️ :   </li>
+    <li class="metricas-caracteres" data-testid="character-count" > RECUENTO DE CARACTERES:   </li>
+    <li class="metricas-caracteres" data-testid="character-no-spaces-count"> CARACTERES SIN SIGNO DE PUNTUACION Y ESPACIOS:  </li> <br>
+    <li class="metricas-caracteres" data-testid="number-count"> RECUENTO DE NUMEROS:  </li>
+    <li class="metricas-caracteres" data-testid="number-sum"> SUMA TOTAL DE NUMEROS:  </li>
+    <li class="metricas-caracteres" data-testid="word-length-average">  LONGITUD MEDIA DE LAS PALABRAS:  </li>
+  </ul> 
+
+<button id="reset-button">
+  🗑️LIMPIAR METRICAS 🗑️
+  </button>
+
+<footer> 
+  <p> BRIGID HUAROC Derechos Reservados &copy; 2024</p>
+</footer>
+  <script src="index.js" type="module"></script>
+</body>
+</html>
